@@ -1,0 +1,30 @@
+.survey-card {
+    background-color: white;
+    display: flex;
+}
+
+.survey-card-header img {
+    height: 210px;
+}
+
+.survey-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.survey-top span {
+    font-weight: bold;
+    color: #42C3AF;
+}
+.survey-top small {
+    color: #858585;
+}
+
+.survey-card-body {
+    padding: 1rem;
+}
+
+.survey-card-body .btn {
+    margin-top: 2rem;
+    float: inline-end;
+}
