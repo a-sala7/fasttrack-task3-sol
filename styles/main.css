@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: #f0f1f1;
+}
+
+.container {
+    width: 90%;    
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
