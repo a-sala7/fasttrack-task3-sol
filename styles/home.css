@@ -1,10 +1,33 @@
 .survey-card {
     background-color: white;
-    display: flex;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+.survey-card-header {
+    grid-column: span 2;
+}
+
+.survey-card-header-small-img {
+    grid-column: span 1;
+    padding: 1rem;
+    padding-inline-end: 0;
+}
+
+.card-img {
+    background: url("/assets/images/img.png");
+    background-size: cover;
+    height: 100%;
+}
+
+.survey-card-body {
+    grid-column: span 3;
+    padding: 1rem;
 }
 
 .survey-card-header img {
-    height: 210px;
+    width: 100%;
 }
 
 .survey-top {
@@ -20,11 +43,11 @@
     color: #858585;
 }
 
-.survey-card-body {
-    padding: 1rem;
-}
-
 .survey-card-body .btn {
     margin-top: 2rem;
     float: inline-end;
+}
+
+.larger-text {
+    font-size: 1.25rem;
 }
